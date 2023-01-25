@@ -9,6 +9,10 @@ Goal: Interpret data from the National Parks Service about endangered species in
 
 Investigate if there are any patterns or themes to the types of species that become endangered. Analyze, then clean up, plot data as well as pose questions and seek to answer them in a meaningful way.
 
+# Analysis:
+1. Run data-analysis.py
+2. View output
+
 # Conclusions and takeaways:
 
 Q: What did you learn throughout the process?
