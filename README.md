@@ -7,8 +7,10 @@ In this project are CSV files for conservation status and population count for a
 Goal: Interpret data from the National Parks Service about endangered species in different parks. Investigate if there are any patterns or themes to the types of species that become endangered. Analyze, then clean up, then plot data as well as pose questions and seek to answer them in a meaningful way.
 
 # Analysis:
-1. Run data-analysis.py
-2. View output
+To view the analysis:
+1. Download this project as a zip file (near the top right corner)
+2. Run data-analysis.py
+3. View output
 
 # Conclusions and takeaways:
 
