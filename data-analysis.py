@@ -43,10 +43,13 @@ sns.set_theme(rc={"figure.figsize":(15, 8)})
 fig, axes = plt.subplots(1, 2)
 #   What is the distribution of conservation_status for animals?
 sns.countplot(data=species_info, x="conservation_status", ax=axes[0])
+axes[0].set_ylabel("num of species")
 axes[0].set_title("spread of conservation status (\"species of concern\" == \"at risk\")")
 #   Are certain types of species more likely to be endangered?
 sns.countplot(data=species_info, x="category", hue="conservation_status", ax=axes[1])
 axes[1].set_xticklabels(unique_organism_categories, rotation=10)
+axes[1].set_xlabel("class")
+axes[1].set_ylabel("num of species")
 axes[1].set_title("spread of conservation status, sorted by class")
 plt.suptitle("conservation status proportions")
 plt.show()
