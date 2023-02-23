@@ -6,9 +6,8 @@ Goal: Interpret data from the National Parks Service about endangered species in
 
 # Analysis:
 To run the analysis:
-1. Download this project as a zip file (green button near the top right corner)
-2. Extract all
-3. In your system command prompt paste the following: `pip install pipreqs & cd Downloads\biodiversity-project-main\biodiversity-project-main & pip install -r requirements.txt & python data-analysis.py`
+1. Download this project
+2. Run biodiversity-project.bat
 
 # Conclusions and takeaways:
 
