@@ -21,19 +21,19 @@ Amphicarpaea bracteata | 156.0
 
 scientific name  | num of sightings
 ------------- | -------------
-coming soon
+..
 
 #### Yosemite National Park
 
 scientific name  | num of sightings
 ------------- | -------------
-coming soon
+..
 
 #### Yellowstone National Park
 
 scientific name  | num of sightings
 ------------- | -------------
-coming soon
+..
 
 # Conclusions and takeaways:
 
