@@ -25,8 +25,7 @@ Q: What are the key findings and takeaways?
 A: Out of 5824 species, 191 have a conservation status. Of those 191, 25-30 are Endangered, Threatened, or In Recovery. Of all organism types, bird species make up the vast majority of species that are in concservation status. Most species in the "Species of Concern" category are of the bird and vascular plant categories. Most species in the "In Recovery" category are birds.
 
 # Analysis Preview:
-![](figure1.png)
-![](figure2.png)
+![](Figure_1.png)
 ### Which species were spotted the most at each park?
 #### Bryce National Park
 
