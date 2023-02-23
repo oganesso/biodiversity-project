@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 # import data
-species_info = pd.read_csv("github/biodiversity-project/species_info.csv")
-observations = pd.read_csv("github/biodiversity-project/observations.csv")
+species_info = pd.read_csv("species_info.csv")
+observations = pd.read_csv("observations.csv")
 
 # calculate summary stats
 #   species info
