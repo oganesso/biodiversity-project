@@ -39,16 +39,16 @@ print("observations_first_quartile", observations_first_quartile)
 print("observations_third_quartile", observations_third_quartile)
 
 # visual examination
+sns.set_theme(rc={"figure.figsize":(15, 8)})
+fig, axes = plt.subplots(1, 2)
 #   What is the distribution of conservation_status for animals?
-sns.countplot(data=species_info, x="conservation_status")
-plt.title("Spread of conservation status among species of concern")
-plt.show()
-plt.clf()
+sns.countplot(data=species_info, x="conservation_status", ax=axes[0])
+axes[0].set_title("spread of conservation status (\"species of concern\" == \"at risk\")")
 #   Are certain types of species more likely to be endangered?
-sns.countplot(data=species_info, x="category", hue="conservation_status")
-ax = plt.subplot()
-ax.set_xticklabels(unique_organism_categories, rotation=10)
-plt.title("Spread of conservation status among species of concern, sorted")
+sns.countplot(data=species_info, x="category", hue="conservation_status", ax=axes[1])
+axes[1].set_xticklabels(unique_organism_categories, rotation=10)
+axes[1].set_title("spread of conservation status, sorted by class")
+plt.suptitle("conservation status proportions")
 plt.show()
 plt.clf()
 #   Which species were spotted the most at each park?
