@@ -1,6 +1,6 @@
 # Introduction:
 
-In this project are CSV files for conservation status and population count for a set of species. This first analysis project will serve as both a guide and a useful template for me to look back to during future data analysis projects.
+In this project are CSV files for conservation status and population count for a set of species. This first analysis project will serve as both a guide and a useful template for me to look back to during future data analysis projects. CSV files sourced from Codecademy.
 
 Goal: Interpret data from the National Parks Service about endangered species in different parks. Investigate if there are any patterns or themes to the types of species that become endangered. Analyze, then clean up, then plot data as well as pose questions and seek to answer them in a meaningful way.
 
