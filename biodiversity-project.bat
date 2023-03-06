@@ -1,1 +1,1 @@
-pip install pipreqs & pip install -r requirements.txt & python data-analysis.py
+pip install pipreqs & pip install -r requirements.txt & py data-analysis.py
